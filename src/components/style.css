@@ -55,3 +55,31 @@ button:hover {
 /* "shadow-md 
 py-7 px-5 
 bg-gradient-to-br from-green-400 to-pink-300" */
+.title {
+  background-color: aliceblue;
+  text-align: center;
+  color: blue;
+  font-size: larger;
+  
+}
+
+.detail {
+   background-color: rgb(31, 13, 134);
+  text-align: center;
+  color: rgb(239, 239, 243);
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.cards {
+  justify-items: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  flex-wrap:wrap ;
+}
+
+

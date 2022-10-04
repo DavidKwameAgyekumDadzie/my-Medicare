@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import "../components/style.css";
 
 function Home() {
   return (
-    <div>
+    <div className='cards'>
         <div>
             <h3>You'ill Love the Way We Care for You</h3>
         </div>
