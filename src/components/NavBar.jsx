@@ -5,17 +5,21 @@ import { NavLink } from "react-router-dom";
 import NavItems from "./NavItems";
 import "./style.css";
 
-function NavBar() {
+
+function NavBar(  ) {
   const [active, setActive] = useState(false);
 
   const showMenu = () => {
     setActive(!active);
-  };
 
+    
+
+  };
+  
   return (
     <div>
       <div className="topbar">
-        <nav className=" bg-white-500 text-blue-600  flex justify-between max-w-7xl mx-auto  ">
+        <nav className=" bg-white-500 text-blue-600  flex justify-between  max-w-7xl mx-auto  ">
           <div className="  m-4 text-left">
             {/* <img src={logo} alt="shef logo" className="w-6 h-6 " /> */}
             <h3 className="font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500 ">
