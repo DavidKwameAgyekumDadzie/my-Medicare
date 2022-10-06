@@ -81,9 +81,7 @@ bg-gradient-to-br from-green-400 to-pink-300" */
   padding: 20px;
   flex-wrap:wrap ;
 }
-/* .topbar {
-  justify-content: flex-end;
-} */
+
 .wrapper {
     padding: 20px;
 }

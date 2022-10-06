@@ -10,4 +10,8 @@
     .form {
       @apply bg-blue-400
     }
+
+    .active {
+        @apply text-red-500
+    }
 }
