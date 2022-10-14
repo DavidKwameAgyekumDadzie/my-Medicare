@@ -26,18 +26,20 @@ function Form() {
   };
   return (
     <div className="h-screen bg-gradient-to-br from-fuchsia-400 to-peach-500 to-red-300 flex justify-center items-center ">
-      <div className="max-w-2xl w-full bg-white p-10 rounded-xl shadow-xl ">
-        <div className="max-w-xl">Patient's Registration Form</div>
+      <div className="max-w-2xl w-full bg-blue-300 p-10 rounded-xl shadow-xl justify-center">
+        <div className="max-w-xl text-center text-lg font-bold bg-slate-400">
+          Patient's Registration Form
+        </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           {/* Creating a form */}
-          <div>
-            <div>
+          <div className="py-5">
+            <div className="flex justify-between">
               <label className="form-label" htmlFor="firstName">
                 First Name
               </label>
               <input type="text" {...register("firstName")} />
             </div>
-            <div>
+            <div className="flex justify-between py-3">
               <label className="form-label" htmlFor="lastName">
                 Last Name
               </label>

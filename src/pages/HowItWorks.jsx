@@ -3,11 +3,11 @@ import "../components/style.css";
 
 function HowItWorks() {
   return (
-    <div>
+    <div className='m-5 justify-center '>
       <h3 className="bg-white w-15 p-4 h-3 mx-20 my-3 flex justify-center items-center md:font-bold lg:font-bold sm:font-bold">
         Pros and Cons of My Medicare
       </h3>
-      <p className="bg-teal-300 justify-item-center rounded m-3 ">
+      <p className="bg-teal-300 justify-item-center rounded m-3  ">
         MY MEDICARE’s purpose is simple: make it easier and faster for people to
         schedule appointments with doctors and healthcare providers, without
         waiting on hold or finding out there are no appointments available for

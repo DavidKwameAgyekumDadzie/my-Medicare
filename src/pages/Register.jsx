@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 function Register () {
   return (
     <div>
@@ -79,11 +80,13 @@ function Register () {
             />
           </div>
         </div>
-        <div class="footer">
-          <button type="submit" class="btn" className="bg-blue-500">
-            Register
-          </button>
-        </div>
+        <a href="form">
+          <div class="footer">
+            <button type="submit" class="btn" className="bg-blue-500">
+              Register
+            </button>
+          </div>
+        </a>
       </div>
     </div>
   );

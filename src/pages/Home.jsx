@@ -1,17 +1,32 @@
-import React from 'react';
+import React from "react";
 import "../components/style.css";
+// import background from "../assets/img/background.jpg";
+// import logo from "../assets/img/logo.jpeg";
 
 function Home() {
+ 
+
   return (
-    <div className="cards">
-      <div>
-        <h1>Best Appointment Scheduling App</h1>
-        <h3>You'ill Love the Way We Care for You</h3>
+    <div>
+      <div className="cards">
+        <div className="welcome">
+          <h1>WELCOME TO MEDICARE </h1>
+        </div>
+        <div className="card">
+          <div className="best">
+            <h1>Your Premier Healthcare App</h1>
+            <h3>You'ill Love the Way We Care for You</h3>
+          </div>
+          <h3 className="emergency">
+            Do you need Emergency Healthcare? then ...
+          </h3>
+          <a href="/register">
+            <button className="appointment">Take Appointment</button>
+          </a>
+        </div>
       </div>
-      <h3>Emergency?</h3>
-      <button>Take Appointment</button>
     </div>
   );
 }
 
-export default Home; 
+export default Home;

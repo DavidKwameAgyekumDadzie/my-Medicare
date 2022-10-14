@@ -10,10 +10,16 @@ body {
     #2c3e50,
     #bdc3c7
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(../assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  backface-visibility: calc(10);
+
 }
 
 .form {
-  background-color: white;
+  background-color: rgb(245, 240, 240);
   border-radius: 5px;
   width: 550px;
   margin: 20px auto;
@@ -74,16 +80,49 @@ bg-gradient-to-br from-green-400 to-pink-300" */
 }
 .cards {
   justify-items: center;
-  background-color: white;
+  background-color: rgb(110, 167, 233);
   border-radius: 5px;
   width: 700px;
   margin: 20px auto;
   padding: 20px;
   flex-wrap:wrap ;
+  margin-bottom: center;
+  justify-content: center;
+  background-color: transparent;
 }
 
 .wrapper {
     padding: 20px;
 }
 
+.welcome {
+  padding-top: 10rem;
+  color: #152631;
+  font-size: 50px;
+  font-weight: 500;
+  /* border: 5px solid black */
+}
+.best {
+  color: #07070e;
+  font-size: 20px;
+  font-weight: 400;
+}
+.emergency{
+  color: red;
+  font-size: 20px;
+  font-weight: 400;
+}
+.appointment{
+  background-color: #bdc3c7;
+  border-radius: 10px;
+  border-color: #2c3e50;
+  border: 2px #2c3e50 solid;
+  width: auto;
+  color: rgb(14, 14, 29);
+  font-weight: 400;
+}
+.card{
+  justify-content: center;
+  justify-items: center;
+}
 
